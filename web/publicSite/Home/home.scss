@@ -1,0 +1,90 @@
+@import "./meyer-reset";
+
+#home-lander {
+  font-family: 'Roboto', sans-serif;
+  background: url('./concert-background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:  100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .headline-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 150px;
+
+    .full-logo {
+      width: 500px;
+    }
+
+    h1 {
+      color: darken(#cb8a23, 10%);
+      font-size: 34px;
+      line-height: 50px;
+      font-weight: bold;
+    }
+  }
+
+  .app-download-links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+
+    .download-link {
+      margin: 10px;
+      width: 159px;
+
+      .swap-on-hover {
+        position: relative;
+        margin:  0 auto;
+        max-width: 159px;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          width: 159px;
+          height: 55px;
+        }
+
+        .swap-on-hover__front-image {
+          z-index: 9999;
+          transition: opacity .2s linear;
+          cursor: pointer;
+        }
+      }
+
+      .swap-on-hover:hover > .swap-on-hover__front-image {
+        opacity: 0;
+      }
+    }
+
+
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  #home-lander {
+    .headline-section {
+      .full-logo {
+        width: 80%;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
+}

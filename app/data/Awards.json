@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "award": "Best Drum Fill"
+    },
+    {
+        "id": 1,
+        "award": "Sickest Riff"
+    },
+    {
+        "id": 2,
+        "award": "Best Vocal Chops"
+    },
+    {
+        "id": 3,
+        "award": "Most Rockin' Band"
+    },
+    {
+        "id": 4,
+        "award": "Most Memorable Melody"
+    },
+    {
+        "id": 5,
+        "award": "Best Solo"
+    },
+    {
+        "id": 6,
+        "award": "Quietest Performance"
+    },
+    {
+        "id": 7,
+        "award": "Best Dance Move"
+    },
+    {
+        "id": 8,
+        "award": "Best Mosh Pit"
+    }
+]

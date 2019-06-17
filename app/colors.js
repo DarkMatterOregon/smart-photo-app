@@ -1,0 +1,10 @@
+export const extraDark = "#0D2A4B";
+export const dark = "#0D2A4B";
+export const light = "#E8E8E8";
+export const extraLight = "#E8E8E8";
+export const primary = "#3D80C2";
+export const secondary = "#DA1A60";
+export const highlight = "#b10055";
+export const accent = "#90779d";
+export const success = "#71b774";
+export const white = "white";

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders correctly 1`] = `
+<div
+  id="home-lander"
+>
+  <div
+    className="headline-section"
+  >
+    <img
+      className="full-logo"
+      src="Test File Stub"
+    />
+    <h1>
+      The App for the Show
+    </h1>
+  </div>
+  <div
+    className="app-download-links"
+  >
+    <div
+      className="download-link"
+    >
+      <figure
+        className="swap-on-hover"
+      >
+        <img
+          className="swap-on-hover__front-image"
+          src="Test File Stub"
+        />
+        <img
+          className="swap-on-hover__back-image"
+          src="Test File Stub"
+        />
+      </figure>
+    </div>
+    <div
+      className="download-link"
+    >
+      <figure
+        className="swap-on-hover"
+      >
+        <img
+          className="swap-on-hover__front-image"
+          src="Test File Stub"
+        />
+        <img
+          className="swap-on-hover__back-image"
+          src="Test File Stub"
+        />
+      </figure>
+    </div>
+  </div>
+</div>
+`;

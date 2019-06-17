@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "title": "Aaron Example",
+    "desc": "The Drunk Topographer",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_1"
+  },
+  {
+    "id": 1,
+    "title": "Chip Spinner",
+    "desc": "Uncle Brother and the Big Family Secret",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_2"
+  },
+  {
+    "id": 2,
+    "title": "Sarah Palin",
+    "desc": "Six Feet Above",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_3"
+  },
+  {
+    "id": 3,
+    "title": "Spades Grizzley",
+    "desc": "Family Dollars",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_4"
+  },
+  {
+    "id": 4,
+    "title": "Umlaut Drenzel",
+    "desc": "Balün",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_1"
+  },
+  {
+    "id": 5,
+    "title": "Lord Farquad",
+    "desc": "Eviction Notice",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_2"
+  },
+  {
+    "id": 6,
+    "title": "Creed Bratton",
+    "desc": "Creed Bratton",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_3"
+  },
+  {
+    "id": 7,
+    "title": "Nathan Explosion",
+    "desc": "Dethklok",
+    "bio": "This will be a magnificent bio full of words. Big words, great words. The best words anyone has ever seen, believe me. I know guy who make the most beautiful words, and it's going to be great.",
+    "image": "ARTIST_EXAMPLE_4"
+  }
+]

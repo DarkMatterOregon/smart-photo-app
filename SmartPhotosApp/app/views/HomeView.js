@@ -83,16 +83,16 @@ export default class HomeView extends Component {
     }
 
     render() {
-//        this.getCameraRoll();
-        this.getCameraRoll_TEST();
+        this.getCameraRoll();
+        //this.getCameraRoll_TEST();
 
         return (
             <View style={styles.container}>
                 <PhotoGrid
                     data={this.state.photos}
-                    itemsPerRow={2}
+                    itemsPerRow={3}
                     itemMargin={1}
-                    itemPaddingHorizontal={5}
+                    itemPaddingHorizontal={10}
                     renderItem={this.renderItem}
                 />
             </View>

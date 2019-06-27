@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Image, CameraRoll, PermissionsAndroid } from 'r
 import PhotoGrid from "../components/PhotoGrid";
 
 export default class HomeView extends Component {
-    state = { photos: [
+    /*state = { photos: [
         { id: 0, src: "https://picsum.photos/200"},
         { id: 1, src: "https://picsum.photos/200"},
         { id: 2, src: "https://picsum.photos/200"},
@@ -11,7 +11,13 @@ export default class HomeView extends Component {
         { id: 4, src: "https://picsum.photos/200"},
         { id: 5, src: "https://picsum.photos/200"},
         { id: 6, src: "https://picsum.photos/200"}
-    ] };
+    ] };*/
+    state = { 
+        photos: [],
+        maxPhotos: 25,           //Max number of photos.
+        coordClusterRange: 0.01, //distance range within which photos belong to same cluster
+        timeClusterRange:  86400 //time range (in seconds) within which photos belong to same cluster
+    };
 
     getCameraRoll_TEST() {
         this.requestCameraRollPermission().then((granted) => {
@@ -33,7 +39,7 @@ export default class HomeView extends Component {
     getCameraRoll() {
         this.requestCameraRollPermission().then((granted) => {
             if (granted) {
-                CameraRoll.getPhotos({ first: 20, assetType: "Photos" }).then(r => {
+                CameraRoll.getPhotos({ first: this.state.maxPhotos, assetType: "Photos" }).then(r => {
                     let cameraRoll = [];
 
                     for (i = 0; i < r.edges.length; i++) {
@@ -83,14 +89,17 @@ export default class HomeView extends Component {
     }
 
     render() {
+        if (this.state.photos.length == 0)
+        {//Later - check for new photos in this loop?
         this.getCameraRoll();
         //this.getCameraRoll_TEST();
+        }
 
         return (
             <View style={styles.container}>
                 <PhotoGrid
                     data={this.state.photos}
-                    itemsPerRow={3}
+                    itemsPerRow={5}
                     itemMargin={1}
                     itemPaddingHorizontal={10}
                     renderItem={this.renderItem}

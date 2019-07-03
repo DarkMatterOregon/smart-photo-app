@@ -127,3 +127,7 @@ About
 android/app/debug
 android/app/release
 android-app-keystore
+
+package-lock\.json
+
+SmartPhotosApp/\.vscode/
